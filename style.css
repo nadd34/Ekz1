@@ -12,6 +12,9 @@
 *{
     margin: 0;
 }
+body{
+    background-color: #ebebeb;
+}
 h2{
     margin-left: 30px;
     color: rgb(51, 50, 50);
@@ -109,4 +112,39 @@ h2{
 
   .block span.bottom-text img {
     margin-left: -280px; 
+  }
+  .shop{
+    border: 16px solid rgb(227, 197, 1);
+    background-color: rgb(227, 197, 1);
+    margin-left: 25px;
+    position: relative; 
+    top: -60px; 
+  }
+  .tag{
+    border: 16px solid rgb(65, 65, 220);
+    background-color: rgb(65, 65, 220);
+    margin-left: 25px;
+    position: relative; 
+    top: -60px; 
+  }
+  .paperplane{
+    border: 16px solid rgb(206, 4, 98);
+    background-color: rgb(206, 4, 98);
+    margin-left: 25px;
+    position: relative; 
+    top: -60px;
+  }
+  .block span.additional-text1 {
+    font-size: 27px;
+    color: rgb(18, 18, 18);
+    margin-left: -30px; 
+    flex-grow: 1; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .block span.additional-text2 {
+    font-size: 27px;
+    color: rgb(18, 18, 18);
+    margin-left: -70px; 
+    flex-grow: 1; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
