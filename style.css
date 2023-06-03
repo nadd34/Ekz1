@@ -5,12 +5,18 @@
   .row{
     max-width: 1000px;
   }
+  .block{
+    max-width: 1000px;
+  }
 }
 @media(max-width:1000px){
   .container{
     max-width: 800px;
   }
   .row{
+    max-width: 800px;
+  }
+  .block{
     max-width: 800px;
   }
 }
@@ -21,6 +27,9 @@
   .row{
     max-width: 650px;
   }
+  .block{
+    max-width: 650px;
+  }
 }
 @media(max-width:500px){
   .container{
@@ -28,6 +37,9 @@
   }
   .row{
     max-width: none;
+  }
+  .block{
+    max-width:none;
   }
 }
   *{
@@ -106,14 +118,15 @@ h2{
     display: flex;
   }
   .data{
-    border: 16px solid green;
+    border: 9px solid green;
     background-color: green;
     margin-left: 25px;
     position: relative; 
-    top: -60px; 
+    top: -50px; 
+    left: -10px;
   }
   .text1{
-    margin-left: 80px;
+    margin-left: 70px;
     margin-bottom: 70px;
     color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -141,26 +154,27 @@ h2{
     margin-left: -280px; 
   }
   .shop{
-    border: 16px solid rgb(227, 197, 1);
+    border: 9px solid rgb(227, 197, 1);
     background-color: rgb(227, 197, 1);
     margin-left: 25px;
     position: relative; 
     top: -60px; 
   }
   .tag{
-    border: 16px solid rgb(65, 65, 220);
+    border: 9px solid rgb(65, 65, 220);
     background-color: rgb(65, 65, 220);
     margin-left: 25px;
     position: relative; 
     top: -60px; 
   }
   .paperplane{
-    border: 16px solid rgb(206, 4, 98);
+    border: 9px solid rgb(206, 4, 98);
     background-color: rgb(206, 4, 98);
     margin-left: 25px;
     position: relative; 
     top: -60px;
   }
+  
   .block span.additional-text1 {
     font-size: 27px;
     color: rgb(18, 18, 18);
@@ -173,18 +187,28 @@ h2{
   .block span.additional-text2 {
     font-size: 27px;
     color: rgb(18, 18, 18);
-    margin-left: -70px; 
+    margin-left: -68px; 
     flex-grow: 1; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
   }
  .row {
+  margin-left: 210px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   margin-bottom: 20px;
   }
-
+  .block1 {
+    width: 55vh;
+    height:47vh;
+    margin-top: 50px;
+    border: 1px solid rgb(218, 218, 218);
+    display: flex;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3); 
+    align-items: center; 
+  margin-right: 30px;
+  }
 
 
 
