@@ -364,10 +364,6 @@ padding-left: 390px;
  margin-right: 80px;
  line-height: 27px;
 }
-
-
-
-
 .yellow-block-text span {
   margin-right: 10px;
   color: #fefbfb;
@@ -421,7 +417,8 @@ line-height: 28px;
 .box2 {
   list-style-type: none;
   padding: 0;
- bottom:  35px;
+ bottom:  15px;
+ margin-top: 20px;
  margin-left: 30px;
 }
 .box2  span {
