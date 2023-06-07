@@ -1,4 +1,4 @@
-@media(max-width:1000px){
+/* @media(max-width:1000px){
   .container{
     max-width: 1000px;
   }
@@ -53,6 +53,68 @@
   .block1{
     max-width:none;
   }
+} */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 300px;
+  }
+  .admin-panel {
+    margin-left: 320px;
+  }
+}
+
+/* Для планшетів */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .sidebar {
+    width: 250px;
+  }
+  .admin-panel {
+    margin-left: 270px;
+  }
+}
+
+/* Для телефонів та малих планшетів */
+@media screen and (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+  .admin-panel {
+    margin-left: 20px;
+  }
+}
+
+/* Загальні стилі для всіх пристроїв */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.block img {
+  margin-right: 10px;
+}
+
+.block span.additional-text {
+  font-size: 18px;
+}
+
+.block span.bottom-text img {
+  margin-left: 10px;
+}
+
+footer {
+  font-size: 14px;
 }
   *{
     padding: 0;
@@ -113,27 +175,30 @@ h2{
     color: rgb(63, 63, 63);
   }
   .container {
-    margin-left: 236px;
+    margin-left: 238px;
     display: flex;
-    align-items: center;
+
   }
 
   .block {
-    width: 40vh;
+    width: 500px;
     height:20vh;
     margin-top: 50px;
     border: 1px solid rgb(255, 255, 255);
     background: rgb(255, 255, 255);
-    display: flex;
+    /* display: flex; */
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.3); 
     align-items: center; 
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 0px;
   }
 
   .block img {
     margin-right: 7px;
     display: flex;
+  }
+  .smaal{
+    margin-right: -70px;
   }
   .data{
     border: 9px solid green;
@@ -143,8 +208,12 @@ h2{
     top: -50px; 
     left: -10px;
   }
+  .spaan{
+    margin-left: 45px;
+  }
+  
   .text1{
-    margin-left: 70px;
+    margin-left: 43px;
     margin-bottom: 70px;
     color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -155,7 +224,7 @@ h2{
     margin-left: -110px; 
     flex-grow: 1; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-wrap: wrap;
+    display: flex;
 
   }
 
